@@ -106,7 +106,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
         <a href="https://46.137.245.23/?ref=Rtpgacor"
           target="_blank"
           rel="noopener noreferrer" className="w-full">
-          <Image src="/banner1.jpeg" height={260} width={960} />
+          <Image src="/banner.jpeg" height={260} width={960} />
         </a>
         <div className="px-6">
           <Slider {...settings} className="flex items-center">
