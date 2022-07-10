@@ -95,7 +95,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           property="og:description"
           content="YOUSLOT88 situs judi slot online terpercaya dan terbaik dengan game judi online terlengkap seperti judi bola serta YOUSLOT88 live casino online bandar judi bola terbesar di Indonesia yang online24jam."
         />
-        <meta property="og:url" content="https://rtplivegacor.xyz" />
+        <meta property="og:url" content="https://rtpslotjp.net" />
         <meta property="og:site_name" content="YOUSLOT88" />
         <meta property="og:image:alt" content="Slot Gacor" />
       </Head>
@@ -117,7 +117,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
                   onClick={() => handleSortProduct(item.id)}
                 >
                   <Image
-                    src={`https://rtplivegacor.xyz/${item.images}`}
+                    src={`https://rtpslotjp.net/${item.images}`}
                     width={100}
                     height={100}
                   />
@@ -152,7 +152,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
                 className="p-3 border border-white rounded-md"
               >
                 <Image
-                  src={`https://rtplivegacor.xyz/${item.images}`}
+                  src={`https://rtpslotjp.net/${item.images}`}
                   width={200}
                   height={150}
                   placeholder="blur"
@@ -456,7 +456,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
 export default Home;
 
 export async function getServerSideProps() {
-  const response = await fetch("https://rtplivegacor.xyz/api/product");
+  const response = await fetch("https://rtpslotjp.net/api/product");
   const result = await response.json();
   return {
     props: {
