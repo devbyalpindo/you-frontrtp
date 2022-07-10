@@ -19,7 +19,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#3a300f",
+        primary: "#920000",
+        secondary: "#b80000"
       },
       textColor: {
         skin: {

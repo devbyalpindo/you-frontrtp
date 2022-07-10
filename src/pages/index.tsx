@@ -61,19 +61,19 @@ const Home: React.FC<ProductProps> = ({ data }) => {
   };
 
   return (
-    <div className="bg-primary">
+    <div className="bg-gradient-to-r from-red-800 to-red-700">
       <Head>
         <title>
-          1KLIKBET Situs Judi Slot Online Terpercaya Resmi di Indonesia
+          YOUSLOT88 Situs Judi Slot Online Terpercaya Resmi di Indonesia
         </title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.png" />
         <meta
           name="description"
-          content="1KLIKBET RTP SLOT terpercaya dan terbaik dengan game judi online terlengkap seperti judi bola serta 1KLIKBET live casino online bandar judi bola terbesar di Indonesia yang online24jam."
+          content="YOUSLOT88 RTP SLOT terpercaya dan terbaik dengan game judi online terlengkap seperti judi bola serta YOUSLOT88 live casino online bandar judi bola terbesar di Indonesia yang online24jam."
         />
         <meta
           name="Keywords"
-          content="rtp, rtp slot, dadu online, slot gacor, rolet online, slot online, judi online, daftar slot online, 1 klik bet, 1KLIKBET, bandar bola, agen bola, judi bola, roulette online, casino online, kasino online, baccarat online, sabung ayam, sabung ayam online"
+          content="rtp, rtp slot, dadu online, slot gacor, rolet online, slot online, judi online, daftar slot online, 1 klik bet, YOUSLOT88, bandar bola, agen bola, judi bola, roulette online, casino online, kasino online, baccarat online, sabung ayam, sabung ayam online"
         />
         <meta name="rating" content="general" />
         <meta name="geo.region" content="id_ID" />
@@ -82,31 +82,31 @@ const Home: React.FC<ProductProps> = ({ data }) => {
         <meta name="language" content="id-ID" />
         <meta name="distribution" content="global" />
         <meta name="geo.placename" content="Indonesia" />
-        <meta name="author" content="1KLIKBET" />
-        <meta name="publisher" content="1KLIKBET" />
+        <meta name="author" content="YOUSLOT88" />
+        <meta name="publisher" content="YOUSLOT88" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
         <meta property="og:locale:alternate" content="en_US" />
         <meta
           property="og:title"
-          content="1KLIKBET Situs Judi Slot Online Terpercaya Resmi di Indonesia"
+          content="YOUSLOT88 Situs Judi Slot Online Terpercaya Resmi di Indonesia"
         />
         <meta
           property="og:description"
-          content="1KLIKBET situs judi slot online terpercaya dan terbaik dengan game judi online terlengkap seperti judi bola serta 1KLIKBET live casino online bandar judi bola terbesar di Indonesia yang online24jam."
+          content="YOUSLOT88 situs judi slot online terpercaya dan terbaik dengan game judi online terlengkap seperti judi bola serta YOUSLOT88 live casino online bandar judi bola terbesar di Indonesia yang online24jam."
         />
         <meta property="og:url" content="https://rtplivegacor.xyz" />
-        <meta property="og:site_name" content="1KLIKBET" />
+        <meta property="og:site_name" content="YOUSLOT88" />
         <meta property="og:image:alt" content="Slot Gacor" />
       </Head>
       <div className="container md:max-w-[960px] mx-auto px-3 py-5">
         <div className="text-center ">
-          <Image src="/logo.svg" height={70} width={200} />
+          <Image src="/logo.png" height={70} width={200} />
         </div>
-        <a href="https://46.137.245.23/?ref=Rtpgacor"
+        <a href="https://youslot88.net/"
           target="_blank"
           rel="noopener noreferrer" className="w-full">
-          <Image src="/banner.jpeg" height={260} width={960} />
+          <Image src="/banner.png" height={260} width={960} />
         </a>
         <div className="px-6">
           <Slider {...settings} className="flex items-center">
@@ -141,15 +141,15 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           </select>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-3 shadow-lg shadow-yellow-400">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-3 shadow-lg shadow-red-900 bg-red-900 rounded-md">
           {dataProduct.map((item: ProductTypes) => {
             return (
               <a
-                href="https://46.137.245.23/?ref=Rtpgacor"
+                href="https://youslot88.net/"
                 target="_blank"
                 rel="noopener noreferrer"
                 key={item.id}
-                className="p-3 border border-yellow-400 rounded-md"
+                className="p-3 border border-white rounded-md"
               >
                 <Image
                   src={`https://rtplivegacor.xyz/${item.images}`}
@@ -179,24 +179,24 @@ const Home: React.FC<ProductProps> = ({ data }) => {
         <div className="mt-3 border border-yellow-400 p-3 rounded-md text-white text-justify md:text-left">
           <h1 className="mb-3 text-2xl font-bold">
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>{" "}
             Agen Slot Gacor Terbaik & Terpercaya Bonus New Member
           </h1>
           <p>
             Selamat datang di{" "}
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>
             , situs slot online gacor terbaik dan terpercaya di Indonesia saat
             ini. Kami menyediakan beragam jenis pilihan permainan slot online
@@ -231,12 +231,12 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             menarik dengan winrate terbesar dai antara semua provider slot
             lainnya yang ada saat ini. Sebagai situs judi online terpercaya,{" "}
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>
             menyediakan beragam jenis permainan slot lengkap dari pragmatic play
             untuk memberikan pengalaman bermain dan taruhan judi slot yang lebih
@@ -264,12 +264,12 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           </h1>
           <p>
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>{" "}
             adalah situs dengan game slot gacor terbanyak di situs online saat
             ini. Beragam jenis permainan slot dengan maxwin tinggi bisa
@@ -307,12 +307,12 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             menentukan jenis game slot dengan RTP tinggi agar bisa menang dengan
             mudah.
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>{" "}
             sebagai provider slot online ternama menyediakan beragam jenis
             permainan slot online dengan RTP tinggi dari beragam provider
@@ -389,23 +389,23 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <h1 className="mt-2 mb-3 text-2xl font-bold">
             Keuntungan Bermain Judi Slot Pragmatic di{" "}
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>
           </h1>
           <p className="mb-2">
             Bermain dan melakukan taruhan judi slot online di{" "}
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>{" "}
             adalah pilihan yang tepat. Anda akan dapatkan banyak keuntungan
             ketika bermain dan melakukan taruhan judi di sini. Pemain judi
@@ -417,24 +417,24 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <p>
             Pemain bisa bermain kapan saja,{" "}
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>{" "}
             akan selalu online selama 24 jam non stop dengan proses deposit dan
             withdraw 1 menit dengan ratusan jenis permainan slot online yang
             bisa dipilih sesuai dengan selera para pemainnya. Winrate yang
             ditawarkan{" "}
             <a
-              href="https://1klikbet.club/"
+              href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
               className="text-yellow-400"
             >
-              1KLIKBET
+              YOUSLOT88
             </a>{" "}
             juga sangat tinggi hingga 92%. Artinya pemain pemula sekalipun bisa
             menang dengan mudah. Sudah ada banyak pemain yang bergabung,
@@ -442,11 +442,11 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             beragam jenis bonus permainan yang menarik.
           </p>
         </div>
-        <a href="https://api.whatsapp.com/send?text=Hallo%20admin%2C%0ASaya%20ingin%20daftar%20member%20dan%20mendapatkan%20info%20rtp&phone=6281398763030" target="_blank" rel="noreferrer nofollow" className="fixed bottom-8 md:right-10 right-3 bg-green-400 rounded-full p-3">
+        <a href="https://api.whatsapp.com/send?phone=6282115490635&text=Halo%20Bos%2C%20Mau%20Transaksi%20Nih" target="_blank" rel="noreferrer nofollow" className="fixed bottom-8 md:right-10 right-3 bg-green-400 rounded-full p-3">
           <FaWhatsapp size={40} className="text-white" />
         </a>
         <div className="text-center text-white mt-10">
-          <p>&copy; 2022 1KLIKBET.CLUB All Right Reserved</p>
+          <p>&copy; 2022 YOUSLOT88.CLUB All Right Reserved</p>
         </div>
       </div>
     </div>
