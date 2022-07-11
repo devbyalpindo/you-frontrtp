@@ -63,7 +63,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-red-800 to-red-700">
+    <div className="bg-primary">
       <Head>
         <title>
           YOUSLOT88 Situs Judi Slot Online Terpercaya Resmi di Indonesia
@@ -111,8 +111,8 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <Image src="/banner.png" height={260} width={960} />
         </a>
         <div className="flex flex-col md:flex-row md:space-y-0 space-y-3 space-x-0 md:space-x-5 my-5">
-            <a className="animate-bounce w-full md:w-1/2 text-center bg-green-400 py-3 rounded-md text-white font-semibold shadow-md shadow-green-500" href="https://youslot88.net/home?register" rel="noopener noreferrer" target="_blank">DAFTAR SEKARANG</a>
-            <a className="w-full md:w-1/2 text-center bg-yellow-400 py-3 rounded-md text-gray-500 font-semibold shadow-md shadow-green-500 flex justify-center items-center" href="https://secure.livechatinc.com/licence/1288461/v2/open_chat.cgi?groups=0" rel="noopener noreferrer" target="_blank"><TiMessages size={20} className="mr-3 text-gray-500"/> LIVECHAT</a>
+            <a className="animate-bounce w-full md:w-1/2 text-center bg-red-900 py-3 rounded-md text-white font-semibold" href="https://youslot88.net/home?register" rel="noopener noreferrer" target="_blank">DAFTAR SEKARANG</a>
+            <a className="w-full md:w-1/2 text-center bg-yellow-400 py-3 rounded-md text-gray-500 font-semibold flex justify-center items-center" href="https://secure.livechatinc.com/licence/1288461/v2/open_chat.cgi?groups=0" rel="noopener noreferrer" target="_blank"><TiMessages size={20} className="mr-3 text-gray-500"/> LIVECHAT</a>
          
         </div>
         <div className="px-6">
@@ -134,7 +134,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           </Slider>
         </div>
         <div className="w-full flex space-x-2 my-4">
-          <p className="text-white">Filter : </p>
+          <p className="text-red-900">Filter : </p>
           <select
             onChange={changeSort}
             value={valueSort}
@@ -148,7 +148,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           </select>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-3 shadow-lg shadow-red-900 bg-red-900 rounded-md">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-3 shadow-lg shadow-red-900 rounded-md border border-red-900">
           {dataProduct.map((item: ProductTypes) => {
             return (
               <a
@@ -156,7 +156,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={item.id}
-                className="p-3 border border-white rounded-md"
+                className="p-3 border border-red-500 rounded-md bg-red-900"
               >
                 <Image
                   src={`https://rtpslotjp.net/${item.images}`}
@@ -183,13 +183,13 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             );
           })}
         </div>
-        <div className="mt-3 border border-yellow-400 p-3 rounded-md text-white text-justify md:text-left">
+        <div className="mt-3 border border-red-900 p-3 rounded-md text-gray-700 text-justify md:text-left">
           <h1 className="mb-3 text-2xl font-bold">
             <a
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>{" "}
@@ -201,7 +201,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>
@@ -241,7 +241,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>
@@ -274,7 +274,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>{" "}
@@ -317,7 +317,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>{" "}
@@ -325,14 +325,14 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             permainan slot online dengan RTP tinggi dari beragam provider
             ternama dunia.
           </p>
-          <h2 className="text-lg text-yellow-400">1. Pragmatic Play</h2>
+          <h2 className="text-lg text-red-600">1. Pragmatic Play</h2>
           <p>
             Pragmatic play adalah salah satu permainan terbaik yang ada di dunia
             judi online. Di provider slot online yang satu ini pemain akan
             temukan banyak jenis permainan yang bisa memberikan mereka banyak
             keuntungan.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">2. Joker Gaming</h2>
+          <h2 className="mt-2 text-lg text-red-600">2. Joker Gaming</h2>
           <p>
             Joker gaming merupakan provider slot ternama yang menyediakan
             beragam pilihan slot dengan winrate tinggi. Di samping bisa
@@ -340,7 +340,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             taruhannya dengan mudah. Meski pemula, tapi bisa dapatkan peluang
             menang yang besar di sini.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">3. Habanero Slot</h2>
+          <h2 className="mt-2 text-lg text-red-600">3. Habanero Slot</h2>
           <p>
             Habanero menawarkan permainan slot yang lebih seru dan penuh dengan
             tantangan. Di sini para pemain akan dihadapkan dengan beragam jenis
@@ -348,7 +348,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             memiliki banyak koleksi permainan slot yang mudah dimainkan dan juga
             mudah sekali dikalahkan.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">4. AFB Slot</h2>
+          <h2 className="mt-2 text-lg text-red-600">4. AFB Slot</h2>
           <p>
             AFB slot menawarkan beragam pilihan permainan slot online yang cukup
             menarik dan juga menjanjikan untuk dimainkan. Menangkan uang jutaan
@@ -356,14 +356,14 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             slot online dari AFB ini juga sangat seru dimainkan dan juga punya
             tampilan yang friendly.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">5. Playstar Slot</h2>
+          <h2 className="mt-2 text-lg text-red-600">5. Playstar Slot</h2>
           <p>
             Playstar Slot hadirkan beragam pilihan permainan slot yang cukup
             seru dan juga cukup menarik untuk dimainkan. Di sini pemain bisa
             mendapatkan kemenangan yang besar. Dengan strategi terbaik dan modal
             yang lebih kecil pemain bisa menang dalam setiap putarannya.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">6. Playtech Slot</h2>
+          <h2 className="mt-2 text-lg text-red-600">6. Playtech Slot</h2>
           <p>
             Playtech Slot menjadi permainan slot paling menguntungkan bagi
             pemain. Permainan slot dari Playtech Slot terkenal begitu sangat
@@ -371,7 +371,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             keuntungan bagi pemain. Di mana mereka bisa menangkan taruhan dengan
             mudah.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">7. PG Soft</h2>
+          <h2 className="mt-2 text-lg text-red-600">7. PG Soft</h2>
           <p>
             PG slot merupakan salah satu permainan slot unik dan cukup menarik
             dimainkan. Permainan slot yang satu ini selain seru dimainkan juga
@@ -379,14 +379,14 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             seru dan mudah dikalahkan. Pemain tentu akan dapat dengan mudah
             memenangkan setiap permainannya.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">8. CQ9 Slot</h2>
+          <h2 className="mt-2 text-lg text-red-600">8. CQ9 Slot</h2>
           <p>
             CQ9 merupakan permainan slot dengan maxwin besar, diciptakan untuk
             memberikan kepuasan bagi para pemain judi online. Pemain pemula akan
             mendapatkan keuntungan yang besar setiap kali mereka bermain.
             Menangkan taruhan tentu akan sangat mudah setiap harinya.
           </p>
-          <h2 className="mt-2 text-lg text-yellow-400">9. JDB Slot</h2>
+          <h2 className="mt-2 text-lg text-red-600">9. JDB Slot</h2>
           <p>
             Walau tidak begitu populer di kalangan para pemain judi besar,
             faktanya ada banyak juga permainan slot online menarik di provider
@@ -399,7 +399,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>
@@ -410,7 +410,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>{" "}
@@ -427,7 +427,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>{" "}
@@ -439,7 +439,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
               href="https://youslot88.net/"
               target="_blank"
               rel="nofollow noreferrer"
-              className="text-yellow-400"
+              className="text-red-600"
             >
               YOUSLOT88
             </a>{" "}

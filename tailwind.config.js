@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#920000",
+        primary: "#efefef",
         secondary: "#b80000"
       },
       textColor: {
