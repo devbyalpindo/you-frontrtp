@@ -453,7 +453,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <FaWhatsapp size={40} className="text-white" />
         </a>
         <div className="text-center text-white mt-10">
-          <p>&copy; 2022 YOUSLOT88.CLUB All Right Reserved</p>
+          <p>&copy; 2022 YOUSLOT88.NET All Right Reserved</p>
         </div>
       </div>
     </div>
