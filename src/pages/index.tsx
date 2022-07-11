@@ -12,6 +12,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaWhatsapp } from "react-icons/fa";
+import { TiMessages } from "react-icons/ti";
+
 
 interface ProductProps {
   data: ResponseTypes;
@@ -108,6 +110,11 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           rel="noopener noreferrer" className="w-full">
           <Image src="/banner.png" height={260} width={960} />
         </a>
+        <div className="flex flex-col md:flex-row md:space-y-0 space-y-3 space-x-0 md:space-x-5 my-5">
+            <a className="animate-bounce w-full md:w-1/2 text-center bg-green-400 py-3 rounded-md text-white font-semibold shadow-md shadow-green-500" href="https://youslot88.net/home?register" rel="noopener noreferrer" target="_blank">DAFTAR SEKARANG</a>
+            <a className="w-full md:w-1/2 text-center bg-yellow-400 py-3 rounded-md text-gray-500 font-semibold shadow-md shadow-green-500 flex justify-center items-center" href="https://secure.livechatinc.com/licence/1288461/v2/open_chat.cgi?groups=0" rel="noopener noreferrer" target="_blank"><TiMessages size={20} className="mr-3 text-gray-500"/> LIVECHAT</a>
+         
+        </div>
         <div className="px-6">
           <Slider {...settings} className="flex items-center">
             {selector.product.map((item: CompanyTypes) => {
