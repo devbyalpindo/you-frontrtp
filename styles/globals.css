@@ -33,3 +33,9 @@ input:checked ~ .dot {
 .img-sepia {
   filter: sepia(1);
 }
+
+
+.bg-background {
+  background: url("../public/background.jpg");
+  background-position: center;
+}

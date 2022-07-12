@@ -63,7 +63,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
   };
 
   return (
-    <div className="bg-primary">
+    <div className="bg-background">
       <Head>
         <title>
           YOUSLOT88 Situs Judi Slot Online Terpercaya Resmi di Indonesia
@@ -134,7 +134,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           </Slider>
         </div>
         <div className="w-full flex space-x-2 my-4">
-          <p className="text-red-900">Filter : </p>
+          <p className="text-white">Filter : </p>
           <select
             onChange={changeSort}
             value={valueSort}
@@ -183,7 +183,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             );
           })}
         </div>
-        <div className="mt-3 border border-red-900 p-3 rounded-md text-gray-700 text-justify md:text-left">
+        <div className="mt-3 border border-red-900 p-3 rounded-md text-white text-justify md:text-left">
           <h1 className="mb-3 text-2xl font-bold">
             <a
               href="https://youslot88.net/"
