@@ -29,6 +29,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
   };
 
   const [valueSort, setValueSort] = useState("nothing");
+  const [mainLink, setMainLink] = useState("https://youslot88.co/");
   const dispatch = useDispatch();
   const selector = useSelector((state: any) => state.product);
   const [dataProduct, setDataProduct] = useState<ProductTypes[]>(
@@ -105,7 +106,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
         <div className="text-center ">
           <Image src="/logo.png" height={70} width={200} />
         </div>
-        <a href="https://172.104.168.168/"
+        <a href={mainLink}
           target="_blank"
           rel="noopener noreferrer" className="w-full">
           <Image src="/banner.png" height={260} width={960} />
@@ -152,7 +153,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           {dataProduct.map((item: ProductTypes) => {
             return (
               <a
-                href="https://172.104.168.168/"
+                href={mainLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 key={item.id}
@@ -186,7 +187,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
         <div className="mt-3 border border-red-900 p-3 rounded-md text-white text-justify md:text-left">
           <h1 className="mb-3 text-2xl font-bold">
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -198,7 +199,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <p>
             Selamat datang di{" "}
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -238,7 +239,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             menarik dengan winrate terbesar dai antara semua provider slot
             lainnya yang ada saat ini. Sebagai situs judi online terpercaya,{" "}
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -271,7 +272,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           </h1>
           <p>
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -314,7 +315,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             menentukan jenis game slot dengan RTP tinggi agar bisa menang dengan
             mudah.
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -396,7 +397,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <h1 className="mt-2 mb-3 text-2xl font-bold">
             Keuntungan Bermain Judi Slot Pragmatic di{" "}
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -407,7 +408,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <p className="mb-2">
             Bermain dan melakukan taruhan judi slot online di{" "}
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -424,7 +425,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           <p>
             Pemain bisa bermain kapan saja,{" "}
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
@@ -436,7 +437,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             bisa dipilih sesuai dengan selera para pemainnya. Winrate yang
             ditawarkan{" "}
             <a
-              href="https://172.104.168.168/"
+              href={mainLink}
               target="_blank"
               rel="nofollow noreferrer"
               className="text-red-600"
