@@ -1,10 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import {
-  ChangeEvent,
-  useEffect,
-  useState,
-} from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setProduct } from "../components/redux/reducers/product";
 import { CompanyTypes, ProductTypes, ResponseTypes } from "../types/product";
@@ -13,7 +9,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaWhatsapp } from "react-icons/fa";
 import { TiMessages } from "react-icons/ti";
-
 
 interface ProductProps {
   data: ResponseTypes;
@@ -31,7 +26,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
   const [valueSort, setValueSort] = useState("nothing");
   const dispatch = useDispatch();
   const selector = useSelector((state: any) => state.product);
-  const [baseUrl, setBaseUrl] = useState("https://youslot88.world/");
+  const [baseUrl, setBaseUrl] = useState("https://youslot88.移动/");
   const [referal, setReferal] = useState("VIPRTP88");
   const [dataProduct, setDataProduct] = useState<ProductTypes[]>(
     data.data[0].Products
@@ -99,7 +94,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           property="og:description"
           content="YOUSLOT88 situs judi slot online terpercaya dan terbaik dengan game judi online terlengkap seperti judi bola serta YOUSLOT88 live casino online bandar judi bola terbesar di Indonesia yang online24jam."
         />
-        <meta property="og:url" content="https://rtpslotjp.net" />
+        <meta property="og:url" content="https://rtpyouslot88.移动" />
         <meta property="og:site_name" content="YOUSLOT88" />
         <meta property="og:image:alt" content="Slot Gacor" />
       </Head>
@@ -107,15 +102,31 @@ const Home: React.FC<ProductProps> = ({ data }) => {
         <div className="text-center ">
           <Image src="/logo.png" height={70} width={200} />
         </div>
-        <a href={baseUrl}
+        <a
+          href={baseUrl}
           target="_blank"
-          rel="noopener noreferrer" className="w-full">
+          rel="noopener noreferrer"
+          className="w-full"
+        >
           <Image src="/banner.png" height={260} width={960} />
         </a>
         <div className="flex flex-col md:flex-row md:space-y-0 space-y-3 space-x-0 md:space-x-5 my-5">
-            <a className="animate-bounce w-full md:w-1/2 text-center bg-red-900 py-3 rounded-md text-white font-semibold" href={`${baseUrl}register?ref=${referal}`} rel="noopener noreferrer" target="_blank">DAFTAR SEKARANG</a>
-            <a className="w-full md:w-1/2 text-center bg-yellow-400 py-3 rounded-md text-gray-500 font-semibold flex justify-center items-center" href="https://direct.lc.chat/1288461/6" rel="noopener noreferrer" target="_blank"><TiMessages size={20} className="mr-3 text-gray-500"/> LIVECHAT</a>
-         
+          <a
+            className="animate-bounce w-full md:w-1/2 text-center bg-red-900 py-3 rounded-md text-white font-semibold"
+            href={`${baseUrl}register?ref=${referal}`}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            DAFTAR SEKARANG
+          </a>
+          <a
+            className="w-full md:w-1/2 text-center bg-yellow-400 py-3 rounded-md text-gray-500 font-semibold flex justify-center items-center"
+            href="https://direct.lc.chat/1288461/6"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <TiMessages size={20} className="mr-3 text-gray-500" /> LIVECHAT
+          </a>
         </div>
         <div className="px-6">
           <Slider {...settings} className="flex items-center">
@@ -126,7 +137,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
                   onClick={() => handleSortProduct(item.id)}
                 >
                   <Image
-                    src={`https://rtpslotjp.net/${item.images}`}
+                    src={`https://rtpyouslot88.移动/${item.images}`}
                     width={100}
                     height={100}
                   />
@@ -161,7 +172,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
                 className="p-3 border border-red-500 rounded-md bg-red-900"
               >
                 <Image
-                  src={`https://rtpslotjp.net/${item.images}`}
+                  src={`https://rtpyouslot88.移动/${item.images}`}
                   width={200}
                   height={150}
                   placeholder="blur"
@@ -169,12 +180,13 @@ const Home: React.FC<ProductProps> = ({ data }) => {
                 />
                 <div className="w-full bg-gray-200 rounded-full">
                   <div
-                    className={`${item.percentage > 60
+                    className={`${
+                      item.percentage > 60
                         ? "bg-green-500"
                         : item.percentage > 30
-                          ? "bg-yellow-500"
-                          : "bg-red-500"
-                      } text-xs font-medium text-blue-100 text-center p-1 leading-none rounded-full my-2`}
+                        ? "bg-yellow-500"
+                        : "bg-red-500"
+                    } text-xs font-medium text-blue-100 text-center p-1 leading-none rounded-full my-2`}
                     style={{ width: item.percentage + "%" }}
                   >
                     {item.percentage}%
@@ -451,7 +463,12 @@ const Home: React.FC<ProductProps> = ({ data }) => {
             beragam jenis bonus permainan yang menarik.
           </p>
         </div>
-        <a href="https://api.whatsapp.com/send?phone=6281316116268&amp;text=Halo%20Bos%2C%20Mau%20Transaksi%20Nih" target="_blank" rel="noreferrer nofollow" className="fixed bottom-8 md:right-10 right-3 bg-green-400 rounded-full p-3">
+        <a
+          href="https://api.whatsapp.com/send?phone=6281316116268&amp;text=Halo%20Bos%2C%20Mau%20Transaksi%20Nih"
+          target="_blank"
+          rel="noreferrer nofollow"
+          className="fixed bottom-8 md:right-10 right-3 bg-green-400 rounded-full p-3"
+        >
           <FaWhatsapp size={40} className="text-white" />
         </a>
         <div className="text-center text-white mt-10">
@@ -465,7 +482,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
 export default Home;
 
 export async function getServerSideProps() {
-  const response = await fetch("https://rtpslotjp.net/api/product");
+  const response = await fetch("https://rtpyouslot88.移动/api/product");
   const result = await response.json();
   return {
     props: {

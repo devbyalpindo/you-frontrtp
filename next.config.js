@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["rtpslotjp.net"],
+    domains: ["rtpyouslot88.移动"],
   },
 };
