@@ -26,7 +26,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
   const [valueSort, setValueSort] = useState("nothing");
   const dispatch = useDispatch();
   const selector = useSelector((state: any) => state.product);
-  const [baseUrl, setBaseUrl] = useState("https://youslot88u.com/");
+  const [baseUrl, setBaseUrl] = useState("https://www.youslot88s.co/");
   const [referal, setReferal] = useState("VIPRTP88");
   const [dataProduct, setDataProduct] = useState<ProductTypes[]>(
     data.data[0].Products
