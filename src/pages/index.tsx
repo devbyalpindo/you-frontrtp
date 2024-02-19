@@ -464,7 +464,7 @@ const Home: React.FC<ProductProps> = ({ data }) => {
           </p>
         </div>
         <a
-          href="https://api.whatsapp.com/send?phone=6281316116268&amp;text=Halo%20Bos%2C%20Mau%20Transaksi%20Nih"
+          href="https://api.whatsapp.com/send?phone=85517810924&amp;text=Halo%20Bos%2C%20Mau%20Transaksi%20Nih"
           target="_blank"
           rel="noreferrer nofollow"
           className="fixed bottom-8 md:right-10 right-3 bg-green-400 rounded-full p-3"
