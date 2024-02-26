@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["bigmantab.top"],
+    domains: ["rtptop1.shop"],
   },
 };
